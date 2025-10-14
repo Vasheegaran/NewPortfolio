@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasheegaran M | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg" aria-hidden="true">
+        <div class="bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </div>
+    
+    <!-- Floating Particles -->
+    <div class="particles-container" id="particles-js"></div>
+    
+    <!-- Scroll to Top Button -->
+    <div class="scroll-up-btn" title="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#" class="logo-link">
+                    <span class="logo-icon"><i class="fas fa-code"></i></span>
+                    <span class="logo-text">Vasheegaran<span class="logo-accent">.dev</span></span>
+                </a>
+            </div>
+            <ul class="menu" role="menubar">
+                <li><a href="#home" class="menu-btn active" aria-current="page">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#education" class="menu-btn">Education</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#certifications" class="menu-btn">Certifications</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <button id="darkToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="menu-btn mobile">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home section" id="home">
+        <div class="container home-align">
+            <div class="home-content animated fade-in">
+                <div class="profile-container">
+                    <div class="profile-frame">
+                        <img src="img1.jpg" alt="Vasheegaran" class="profile-pic" />
+                        <div class="profile-glow"></div>
+                    </div>
+                </div>
+                <div class="home-titles">
+                    <div class="text-1">Hello, I'm</div>
+                    <div class="text-2">Vasheegaran M</div>
+                    <div class="text-3">A Passionate <span class="typing"></span></div>
+                    <div class="home-buttons">
+                        <a href="#contact" class="cta-btn ripple">
+                            <span>Let's Connect</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                        <a href="#projects" class="cta-btn secondary-btn ripple">
+                            <span>View Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll Down</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about glass-section section" id="about">
+        <div class="container">
+            <h2 class="title">About Me</h2>
+            <div class="about-content animated scroll-fade">
+                <div class="column left">
+                    <div class="about-img-container">
+                        <img src="img1.jpg" alt="Vasheegaran's Photo" class="about-img">
+                        <div class="about-img-overlay"></div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Hi! I'm Vasheegaran, <span class="typing-2"></span></div>
+                    <p>
+                        I am an aspiring Software Engineer with a Master's in Computer Applications (MCA) and a Bachelor's in Computer Applications (BCA). My journey in tech is driven by curiosity and a love of building impactful solutions. I thrive on collaborative teamwork, continual learning, and challenging projects. I am organized, detail-oriented, and committed to delivering quality results.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number" data-count="3">0</div>
+                            <div class="stat-text">Projects</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-count="4">0</div>
+                            <div class="stat-text">Certifications</div>
+                        </div>
+                       
+                    </div>
+                    <a href="Resume.pdf" download="Resume.pdf" class="btn glass-btn ripple">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education glass-section section" id="education">
+        <div class="container">
+            <h2 class="title">Education</h2>
+            <div class="edu-content animated scroll-fade">
+                <div class="card">
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="text">MCA (2024-2026)</div>
+                        <p>MEPCO SCHLENK ENGINEERING COLLEGE</p>
+                        <p>CGPA: 8.5</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-university"></i></div>
+                        <div class="text">BCA (2021-2024)</div>
+                        <p>Sri ParamaKalyani College</p>
+                        <p>CGPA: 8.2</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-book"></i></div>
+                        <div class="text">Higher Secondary (2020-2021)</div>
+                        <p>Andrews Matric Higher Secondary School</p>
+                        <p>PERCENTAGE: 93%</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-school"></i></div>
+                        <div class="text">Secondary (2018-2019)</div>
+                        <p>Andrews Matric Higher Secondary School</p>
+                        <p>PERCENTAGE: 92%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills glass-section section" id="skills">
+        <div class="container">
+            <h2 class="title">Skills</h2>
+            <div class="skills-content animated scroll-fade">
+                <div class="column left">
+                    <div class="text"><i class="fas fa-code"></i> Technical Profile</div>
+                    <ul>
+                        <li>Programming: <b>HTML5, CSS3, JavaScript, Java, Python</b></li>
+                        <li>Database: <b>MySQL</b></li>
+                        <li>Frameworks: <b>React</b></li>
+                    </ul>
+                    <div class="text"><i class="fas fa-users"></i> Soft Skills</div>
+                    <ul>
+                        <li>Teamwork & Collaboration</li>
+                        <li>Communication & Presentation</li>
+                        <li>Problem Solving</li>
+                        <li>Time Management</li>
+                    </ul>
+                    <div class="text"><i class="fas fa-bullseye"></i> Career Objective</div>
+                    <p>
+                        To secure a challenging role in a progressive organization where I can leverage my technical and creative skills to contribute to impactful projects.
+                    </p>
+                </div>
+                <div class="column right">
+                    <div class="skillbar" data-percent="95">
+                        <span class="skillbar-title"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="skillbar-percent">95%</span>
+                        <div class="skillbar-bar html"></div>
+                    </div>
+                    <div class="skillbar" data-percent="85">
+                        <span class="skillbar-title"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="skillbar-percent">85%</span>
+                        <div class="skillbar-bar css"></div>
+                    </div>
+                    <div class="skillbar" data-percent="80">
+                        <span class="skillbar-title"><i class="fab fa-python"></i> Python</span>
+                        <span class="skillbar-percent">80%</span>
+                        <div class="skillbar-bar python"></div>
+                    </div>
+                    <div class="skillbar" data-percent="70">
+                        <span class="skillbar-title"><i class="fab fa-java"></i> Java</span>
+                        <span class="skillbar-percent">70%</span>
+                        <div class="skillbar-bar java"></div>
+                    </div>
+                    <div class="skillbar" data-percent="75">
+                        <span class="skillbar-title"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="skillbar-percent">75%</span>
+                        <div class="skillbar-bar mysql"></div>
+                    </div>
+                    <div class="skillbar" data-percent="60">
+                        <span class="skillbar-title"><i class="fab fa-react"></i> React</span>
+                        <span class="skillbar-percent">60%</span>
+                        <div class="skillbar-bar react"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications glass-section section" id="certifications">
+        <div class="container">
+            <h2 class="title">Certifications</h2>
+            <div class="cert-content animated scroll-fade">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-details">
+                        <h3>Java Programming</h3>
+                        <p>NPTEL (2025)</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-details">
+                        <h3>Frontend Development</h3>
+                        <p>Infosys SpringBoard (2025)</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-details">
+                        <h3>PGDCA</h3>
+                        <p>Post Graduate Diploma in Computer Applications (2023)</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-details">
+                        <h3>Java Basic</h3>
+                        <p>HackerRank (2025)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects glass-section section" id="projects">
+        <div class="container">
+            <h2 class="title">Projects</h2>
+            <div class="proj-content animated scroll-fade">
+                <div class="proj-card">
+                    <div class="proj-icon"><i class="fas fa-tint"></i></div>
+                    <h3>Blood Bank Management System</h3>
+                    <p>A web app for managing the blood details for the hospitals in stock, built with PHP & MySQL.</p>
+                    <div class="proj-links">
+                        <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="proj-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="proj-card">
+                    <div class="proj-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>This responsive, interactive portfolio (the site you're viewing now!) built with modern HTML, CSS, JS.</p>
+                    <div class="proj-links">
+                        <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="proj-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="proj-card">
+                    <div class="proj-icon"><i class="fas fa-robot"></i></div>
+                    <h3>ACTS-Chatbot</h3>
+                    <p>A Chatbot handling Indian legal queries of the citizens and generate Responses. Using Rasa Framework.</p>
+                    <div class="proj-links">
+                        <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="proj-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="proj-card">
+                    <div class="proj-icon"><i class="fas fa-share-alt"></i></div>
+                    <h3>ShareSphere</h3>
+                    <p>Build a Hyperlocal Community Resource Sharing Platform with CRUD operations. Using REACT,SUPABASE(Backend As a Service).</p>
+                    <div class="proj-links">
+                        <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="proj-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact glass-section section" id="contact">
+        <div class="container">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content animated scroll-fade">
+                <div class="column left">
+                    <div class="text">Let's build something together!</div>
+                    <p>
+                        I'm always open to discussing new opportunities, creative ideas, or potential collaborations. Feel free to reach out through any of the channels below.
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-details">
+                                <span>Mobile</span>
+                                <a href="tel:+917339275474">+91-7339275474</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-details">
+                                <span>Email</span>
+                                <a href="mailto:vasheegaran149@gmail.com">vasheegaran149@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-details">
+                                <span>Location</span>
+                                <span>Tamil Nadu, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/vasheegaran149" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/vasheegaran149mca26-hash" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:vasheegaran149@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="column right">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn ripple">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo-link">
+                        <span class="logo-icon"><i class="fas fa-code"></i></span>
+                        <span class="logo-text">Vasheegaran<span class="logo-accent">.dev</span></span>
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-copyright">
+                    <span>Designed & Built by <a href="#">Vasheegaran M</a> | &copy; 2025 All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
