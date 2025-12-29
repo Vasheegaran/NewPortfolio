@@ -283,7 +283,7 @@ $(document).ready(function() {
     });
     
     // Add hover effect to cards
-    $('.card, .cert-card, .proj-card').hover(
+    $('.card, .cert-card, .proj-card, .achievement-card').hover(
         function() {
             $(this).addClass('hover');
         },
@@ -333,4 +333,27 @@ $(document).ready(function() {
     
     // Initialize active menu
     updateActiveMenu();
+    
+    // Add click handler for project and achievement links
+    $('.proj-link, .achievement-link').click(function(e) {
+        e.stopPropagation();
+    });
+    
+    // Initialize tooltips for project links
+    $('.proj-link').hover(
+        function() {
+            var title = $(this).attr('title');
+            if (title) {
+                $(this).attr('data-tooltip', title);
+                $(this).removeAttr('title');
+            }
+        },
+        function() {
+            var tooltip = $(this).attr('data-tooltip');
+            if (tooltip) {
+                $(this).attr('title', tooltip);
+                $(this).removeAttr('data-tooltip');
+            }
+        }
+    );
 });
